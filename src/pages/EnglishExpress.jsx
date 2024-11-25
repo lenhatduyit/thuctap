@@ -10,7 +10,7 @@ const EnglishExpress = () => {
   const [error, setError] = useState(null);
 
   const selectionsettings = { persistSelection: true };
-  const toolbarOptions = [''];
+  const toolbarOptions = ['Search'];
   const editing = { allowDeleting: true, allowEditing: true, mode: 'Dialog' }; // Chỉnh sửa qua dialog
 
   // Fetch dữ liệu từ API

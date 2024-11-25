@@ -11,7 +11,7 @@ const LearnTogether = () => {
   const [editingData, setEditingData] = useState(null);
 
   const selectionsettings = { persistSelection: true };
-  const toolbarOptions = [''];
+  const toolbarOptions = ['Search'];
   const editing = { allowDeleting: true, allowEditing: true };
 
   // Fetch data from API

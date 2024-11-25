@@ -18,4 +18,4 @@ export { default as Stacked } from './Charts/Stacked';
 export { default as Englishpronunciation } from './Englishpronunciation';
 export { default as AddEnglishPro } from './AddEnglishPro';
 export { default as User } from './User';
-export { default as XepHang } from './XepHang';
+export { default as Ranking } from './Ranking';

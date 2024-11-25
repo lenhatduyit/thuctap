@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { GridComponent, Inject, ColumnsDirective, ColumnDirective, Page, Toolbar, Selection, Edit } from '@syncfusion/ej2-react-grids';
 import { Header } from '../components';
 
-const XepHang = () => {
+const Ranking = () => {
   const [XepHangs, setXepHangs] = useState([]);  // Dữ liệu được lưu trong biến này
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -76,4 +76,4 @@ const XepHang = () => {
   );
 };
 
-export default XepHang;
+export default Ranking;

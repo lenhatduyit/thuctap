@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Dashboard, Calendar, Topic, Stacked, Pyramid, Exercise, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, ExerciseSegment, LearnTogether, EnglishExpress, XepHang } from './pages';
+import { Dashboard, Calendar, Topic, Stacked, Pyramid, Exercise, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, ExerciseSegment, LearnTogether, EnglishExpress, Ranking } from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -90,7 +90,7 @@ const App = () => {
                 <Route path="/englishpronunciation" element={<Englishpronunciation />} />
                 <Route path="/addEnglishPro" element={<AddEnglishPro />} />
                 <Route path="/user_account" element={<User />} />
-                <Route path="/xepHang" element={<XepHang />} />
+                <Route path="/ranking" element={<Ranking />} />
 
 
 

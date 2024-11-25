@@ -9,7 +9,7 @@ const ExerciseSegment = () => {
   const [loading, setLoading] = useState(true);
 
   const selectionsettings = { persistSelection: true };
-  const toolbarOptions = [''];
+  const toolbarOptions = ['Search'];
   const editing = { allowDeleting: true, allowEditing: true };
 
   useEffect(() => {
